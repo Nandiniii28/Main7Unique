@@ -49,13 +49,13 @@ const services = [
 // ]
 
 const apiItems = [
-  { name: "Recharge", href: "/services/api-recharge" },
-  { name: "BBPS", href: "/services/api-bbps" },
+  // { name: "Recharge", href: "/services/api-recharge" },
+  // { name: "BBPS", href: "/services/api-bbps" },
   { name: "AEPS", href: "/services/api-aeps" },
   { name: "DMT", href: "/services/api-dmt" },
-  { name: "Bus Booking", href: "/services/api-bus-booking" },
   { name: "Pancard Verification", href: "/services/api-pancard-verification" },
   { name: "Aadhar Verification", href: "/services/api-aadhar-verification" },
+  { name: "Bus Booking", href: "/services/api-bus-booking" },
   { name: "Hotel Booking", href: "/services/api-hotel-booking" },
   { name: "Flight Booking", href: "/services/api-flight-booking" },
   { name: "Cibil Score", href: "/services/api-cibil-score" },
@@ -65,9 +65,9 @@ const navItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   // Services, Software, and APIs will be added as dropdowns in the NavigationMenu
-  { name: "Gallery", href: "/gallery" },
-  { name: "Blog", href: "/blog" },
-  { name: "Career", href: "/career" },
+  // { name: "Gallery", href: "/gallery" },
+  // { name: "Blog", href: "/blog" },
+  // { name: "Career", href: "/career" },
   { name: "Contact", href: "/contact" },
 ]
 

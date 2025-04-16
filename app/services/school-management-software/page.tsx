@@ -8,7 +8,7 @@ export default function SchoolManagementSoftwarePage() {
         {
           image: "/placeholder.svg?height=1080&width=1920",
           title: "School Management Software",
-          description: "Streamline educational administration with our comprehensive school management solution",
+          description: "Use our all-inclusive school management solution to streamline educational administration.",
           
         },
       ]
@@ -23,9 +23,7 @@ export default function SchoolManagementSoftwarePage() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Comprehensive School Management</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our school management software provides a complete solution for educational institutions of all sizes.
-                From student enrollment to attendance tracking, grade management, and communication tools, our platform
-                handles every aspect of school administration to help educators focus on what matters most - teaching.
+              Our school management software offers a comprehensive solution tailored to meet the needs of educational institutions of all sizes. From seamless student enrollment to efficient attendance tracking, grade management, and communication tools, our platform is designed to handle all aspects of school administration. 
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
@@ -68,8 +66,7 @@ export default function SchoolManagementSoftwarePage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Our school management software comes packed with features designed to streamline educational
-                administration.
+              Our school management software is designed with a wide range of features to optimize and simplify the administration of educational institutions
               </p>
             </div>
           </div>
@@ -97,7 +94,7 @@ export default function SchoolManagementSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Student Management</h3>
               <p className="text-muted-foreground">
-                Comprehensive student information system with enrollment, profiles, and academic history.
+              Manage comprehensive student profiles, track enrollment, academic history, and performance with ease.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -122,7 +119,7 @@ export default function SchoolManagementSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Attendance Tracking</h3>
               <p className="text-muted-foreground">
-                Efficient attendance management with automated reporting and parent notifications.
+              Effortlessly track student attendance with automated reporting, ensuring accurate records. 
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -144,8 +141,7 @@ export default function SchoolManagementSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Grade Management</h3>
               <p className="text-muted-foreground">
-                Comprehensive grade tracking, report card generation, and academic performance analysis.
-              </p>
+              Track student grades and academic performance efficiently. Generate report cards, analyze academic progress.              </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
               <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
@@ -166,7 +162,7 @@ export default function SchoolManagementSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Communication Tools</h3>
               <p className="text-muted-foreground">
-                Integrated messaging system for teachers, parents, and administrators to stay connected.
+              Facilitate seamless communication between teachers, parents, and administrators with integrated messaging and notifications.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -190,7 +186,7 @@ export default function SchoolManagementSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Timetable Management</h3>
               <p className="text-muted-foreground">
-                Efficient scheduling of classes, teachers, and resources with conflict detection.
+              Organize and schedule classes, teachers, and resources efficiently, ensuring no conflicts and maximizing resource utilization.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -235,9 +231,7 @@ export default function SchoolManagementSoftwarePage() {
                 Why Choose Our School Management Software
               </h2>
               <p className="text-muted-foreground md:text-lg">
-                Our school management software stands out from the competition with its robust features, scalable
-                architecture, and user-friendly interface. We've designed our solution to meet the needs of educational
-                institutions of all sizes.
+              At SevenUnique Tech Solutions, we believe in creating solutions that simplify the complexity of managing educational institutions. Our school management software is designed to automate processes, enhance collaboration, and improve efficiency across all aspects of school operations.
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
@@ -245,7 +239,7 @@ export default function SchoolManagementSoftwarePage() {
                   <div>
                     <h3 className="font-bold">Scalable Solution</h3>
                     <p className="text-muted-foreground">
-                      Our platform grows with your institution, from a small school to a large educational network.
+                    Our platform is designed to grow with your institution, whether it's a small school, large educational network, or multi-campus setup. 
                     </p>
                   </div>
                 </li>
@@ -254,7 +248,7 @@ export default function SchoolManagementSoftwarePage() {
                   <div>
                     <h3 className="font-bold">User-Friendly Interface</h3>
                     <p className="text-muted-foreground">
-                      Intuitive design that's easy to use for administrators, teachers, parents, and students.
+                    With an intuitive, easy-to-navigate design, our software caters to administrators, teachers, parents, and students
                     </p>
                   </div>
                 </li>
@@ -263,7 +257,7 @@ export default function SchoolManagementSoftwarePage() {
                   <div>
                     <h3 className="font-bold">Data Security</h3>
                     <p className="text-muted-foreground">
-                      Advanced security measures to protect sensitive student and institutional data.
+                    We understand the importance of safeguarding sensitive student and institutional data. 
                     </p>
                   </div>
                 </li>
@@ -272,7 +266,7 @@ export default function SchoolManagementSoftwarePage() {
                   <div>
                     <h3 className="font-bold">Dedicated Support</h3>
                     <p className="text-muted-foreground">
-                      Our team provides comprehensive support throughout implementation and beyond.
+                    Our commitment to your success doesn't end with the implementation.
                     </p>
                   </div>
                 </li>
@@ -290,8 +284,7 @@ export default function SchoolManagementSoftwarePage() {
                 Ready to Transform Your Educational Institution?
               </h2>
               <p className="mx-auto max-w-[700px] md:text-xl">
-                Contact us today to discuss how our school management software can help you streamline administration
-                and enhance the educational experience.
+              Get in touch with us right now to find out how our school management software can improve the educational process and expedite administration.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">

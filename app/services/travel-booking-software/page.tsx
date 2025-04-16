@@ -6,32 +6,32 @@ const TravelSoftware = () => {
     const features = [
         {
           title: "Booking Management",
-          description: "Comprehensive booking management for flights, hotels, cars, and packages with real-time availability.",
+          description: " Efficiently manage bookings for flights, hotels, car rentals, and travel packages with real-time availability updates",
           icon: <FaCalendarAlt  className="text-blue-600 text-2xl"/>,
         },
         {
           title: "Inventory Management",
-          description: "Manage your travel inventory, including rooms, seats, and packages, with real-time updates.",
+          description: " Manage your inventory of rooms, seats, and travel packages with real-time updates.",
           icon: <BiBox className="text-blue-600 text-2xl"/>,
         },
         {
           title: "Payment Processing",
-          description: "Secure payment processing with support for multiple payment methods and currencies.",
+          description: " Offer secure and reliable payment processing that supports multiple payment methods and currencies.",
           icon: <BiCreditCard className="text-blue-600 text-2xl"/>,
         },
         {
           title: "Customer Management",
-          description: "Maintain customer profiles, preferences, and booking history for personalized service.",
+          description: "Maintain detailed customer profiles, including preferences, past bookings, and special requests.",
           icon: <BiGroup className="text-blue-600 text-2xl"/>,
         },
         {
           title: "Reporting & Analytics",
-          description: "Generate comprehensive reports and gain insights into your business performance.",
+          description: "Generate detailed reports on sales, bookings, customer behavior, and financial performance.",
           icon: <BiBarChartAlt2 className="text-blue-600 text-2xl"/>,
         },
         {
           title: "API Integration",
-          description: "Seamless integration with major GDS systems, OTAs, and other travel service providers.",
+          description: " Integrate seamlessly with major GDS, OTAs, and other travel service providers",
           icon: <BiCodeAlt className="text-blue-600 text-2xl"/>,
         },
       ];
@@ -39,22 +39,22 @@ const TravelSoftware = () => {
   const modules = [
     {
       title: "Flight Booking",
-      description: "Comprehensive flight booking system with real-time availability, pricing, and ticketing.",
+      description: "A robust flight booking system that offers real-time availability, pricing, and ticketing.",
       features: ["GDS Integration", "Multi-city Booking", "Fare Comparison", "E-ticketing"],
     },
     {
       title: "Hotel Reservation",
-      description: "Complete hotel reservation system with room inventory management and dynamic pricing.",
+      description: "Our hotel reservation system includes room inventory management, dynamic pricing, and a complete booking engine",
       features: ["Room Inventory", "Dynamic Pricing", "Property Management", "Booking Engine"],
     },
     {
       title: "Car Rental",
-      description: "Car rental management system with fleet management and booking capabilities.",
+      description: "A comprehensive car rental management module that helps you handle fleet management, booking, and rental agreements.",
       features: ["Fleet Management", "Rental Agreements", "Pricing Rules", "Availability Calendar"],
     },
     {
       title: "Package Tours",
-      description: "Create and manage package tours with customizable itineraries and pricing.",
+      description: "Create, manage, and customize travel packages with detailed itineraries and dynamic pricing.",
       features: ["Itinerary Builder", "Package Pricing", "Group Bookings", "Tour Management"],
     },
   ];
@@ -81,28 +81,23 @@ const TravelSoftware = () => {
                 Travel Management Software
               </h2>
               <p className="text-gray-600 mb-4 text-lg">
-                Our Travel Software is a comprehensive solution designed specifically for travel agencies, tour
-                operators, and travel businesses. It streamlines operations, automates booking processes, and provides
-                powerful tools for managing all aspects of your travel business.
-              </p>
+              Our Travel Management Software offers a comprehensive, all-in-one solution tailored specifically for travel agencies, tour operators, and travel businesses. Designed to simplify and streamline operations, automate booking processes, and enhance customer experience.              </p>
               <p className="text-gray-600 mb-6 text-lg">
-                Whether you're a small travel agency or a large tour operator, our Travel Software can be customized to
-                meet your specific requirements, helping you provide exceptional service to your customers while
-                improving operational efficiency.
+              Whether you're a small agency looking to expand or a large tour operator handling high-volume bookings, our Travel Software is fully customizable to meet your unique business requirements. 
               </p>
               <div className="space-y-4 mb-8">
                 {[
                   {
                     title: "End-to-End Solution",
-                    text: "Manage all aspects of your travel business from a single, integrated platform."
+                    text: "Our platform offers an integrated system that helps you manage bookings, payments, and more—all from a single dashboard."
                   },
                   {
                     title: "Customizable",
-                    text: "Tailor the software to meet your specific business needs and workflows."
+                    text: " Adapt the software to your business model, workflows, and branding to fit the needs of your unique travel operations."
                   },
                   {
                     title: "Scalable",
-                    text: "Grow with a solution that scales with your business, from startup to enterprise."
+                    text: "Our solution scales with your growth—across markets, services, and global operations."
                   }
                 ].map((item, index) => (
                   <div key={index} className="flex items-start">
@@ -146,7 +141,7 @@ const TravelSoftware = () => {
               Key Features
             </h2>
             <p className="text-xl text-gray-600">
-              Our Travel Software offers a comprehensive set of features to help you manage your travel business effectively.
+            Our Travel Management Software comes packed with powerful features designed to help you streamline and optimize your travel business operations. 
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -209,26 +204,26 @@ const TravelSoftware = () => {
                 Benefits of Our Travel Software
               </h2>
               <p className="text-gray-600 mb-6 text-lg">
-                Implementing our Travel Software can transform your travel business operations and drive significant
-                improvements in efficiency, customer satisfaction, and profitability.
+              Implementing our Travel Software can revolutionize your travel business operations, providing numerous advantages that will improve efficiency, enhance customer satisfaction, and drive profitability.
+
               </p>
               <div className="space-y-4">
                 {[
                   {
                     title: "Increased Operational Efficiency",
-                    text: "Automate booking processes, reduce manual work, and streamline operations."
+                    text: "Automate routine tasks such as booking, payments, and inventory management."
                   },
                   {
                     title: "Enhanced Customer Experience",
-                    text: "Provide faster service, personalized offers, and seamless booking experiences."
+                    text: " Offer quicker, more personalized services to your customers with real-time availability."
                   },
                   {
                     title: "Improved Revenue Management",
-                    text: "Optimize pricing, identify upselling opportunities, and maximize revenue."
+                    text: " With dynamic pricing features and intelligent algorithms, you can optimize rates for flights, hotels, and packages."
                   },
                   {
                     title: "Better Business Insights",
-                    text: "Gain valuable insights into your business performance with comprehensive reporting and analytics."
+                    text: " Make informed decisions with powerful reporting and analytics tools that give you a deeper understanding of your business performance."
                   }
                 ].map((item, index) => (
                   <div key={index} className="flex items-start">

@@ -42,7 +42,7 @@ export default function Footer() {
                 { href: "/services", text: "Services" },
                 { href: "/blog", text: "Blog" },
                 { href: "/career", text: "Careers" },
-                { href: "/contact", text: "Contact" }
+                { href: "/gallery", text: "Gallery" }
               ].map((link) => (
                 <li key={link.href}>
                   <Link 
